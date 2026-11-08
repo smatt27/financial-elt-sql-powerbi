@@ -14,7 +14,7 @@ An end-to-end automated ELT (Extract, Load, Transform) pipeline that ingests fin
 
 - Simple Moving Averages (SMA 50 & 200): Calculated in SQL to smooth price action.
 - Market Signals (Golden Cross / Death Cross): Automated trend detection.
-- Daily Returns**: Computed using SQL `LAG()` function.
+- Daily Returns: Computed using SQL `LAG()` function.
 - Annualized Volatility**: Calculated dynamically in Power BI using DAX (`STDEV.S` * `SQRT(252)`).
 - Maximum Drawdown: Worst historical drop from peak, calculated dynamically via DAX (`MIN`).
 
